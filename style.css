@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    background: #AA445F;
+    position: relative;
+}
+
+.a {
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+    top: 50px;
+    position: absolute;
+    left: 75px;
+    border-radius: 100px  0  0 100px;
+  }
+  
+    .b {
+    width: 100px;
+    height: 200px;
+    background: #E38F66;
+    top: 50px;
+    position: absolute;
+    right: 75px;
+    border-radius:  0  100px  100px  0 ;
+  }
